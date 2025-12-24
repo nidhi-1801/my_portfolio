@@ -4,15 +4,15 @@ import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 const footerLinks = [
   {
     title: "Github",
-    href: "https://github.com/TaraniKondoori",
+    href: "https://github.com/nidhi-1801", // UPDATED
   },
   {
     title: "LinkedIn",
-    href: "https://www.linkedin.com/in/sai-tarani-kondoori-98585b193/",
+    href: "https://www.linkedin.com/in/nidhi-s-109434212/", // UPDATED
   },
   {
     title: "Contact Me",
-    href: "mailto:saitaranikondoori@gmail.com",
+    href: "mailto:nidhisir81@gmail.com", // UPDATED
   },
 ];
 

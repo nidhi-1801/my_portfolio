@@ -1,7 +1,23 @@
 import StarIcon from "@/assets/icons/star.svg";
 import { Fragment } from "react";
 
-const words = ["Analytical", "Problem-Solver", "Innovative", "Detail-Oriented", "Efficient", "Adaptive", "Strategic", "Resourceful", "Data-Driven", "Agile", "Organized", "Scalable-Thinking", "Collaborative", "Leadership", "Impact-Focused"];
+const words = [
+  "Data-Driven",
+  "Machine-Learning",
+  "Model-Optimization",
+  "Analytical",
+  "Predictive-Modeling",
+  "Neural-Networks",
+  "Scalable-AI",
+  "NLP",
+  "Statistical-Analysis",
+  "Innovative",
+  "Problem-Solver",
+  "Impact-Focused",
+  "A/B-Testing",
+  "Big-Data",
+  "Efficient"
+];
 
 export const TapeSection = () => {
   return (

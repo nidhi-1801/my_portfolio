@@ -60,14 +60,16 @@ export const HeroSection = () => {
             <div className="bg-green-500 size-2.5 rounded-full relative">
               <div className='bg-green-500 absolute inset-0 rounded-full animate-ping-large'></div>
             </div>
-            <div className="text-sm font-medium">Available for Software Development Engineer Roles</div>
+            <div className="text-sm font-medium">Available for Data Scientist & Analysis Roles</div>
           </div>
           <div className="max-w-lg mx-auto">
-            <h1 className="font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide">Solving complex problems with data-driven solutions</h1>
+            <h1 className="font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide">Unlocking insights and solving complex problems with data-driven solutions</h1>
             <p className="mt-4 text-center text-white/60 md:text-lg">
-            I am a results-driven Software Developer with a strong background in backend systems, 
-            data architecture, and scalable solutions. 
-            I bring a blend of technical expertise with leadership experience to drive impactful innovations and efficient problem-solving.
+           I am a results-driven Data Scientist with a strong background 
+           in statistical analysis, machine learning, 
+           and scalable data architectures. 
+           I bring a blend of technical expertise with leadership experience to drive impactful innovations 
+           and efficient problem-solving.
             </p>
           </div>
           <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
