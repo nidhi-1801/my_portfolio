@@ -2,21 +2,12 @@
 const nextConfig = {
   output: "export",
   distDir: "dist",
-  
-  // Add basePath for GitHub Pages (comment out if deploying to Vercel)
-  basePath: process.env.NODE_ENV === 'production' ? '/my_portfolio' : '',
-  
-  // Optimize images for static export
-  images: {
-    unoptimized: true,
-  },
-  
   webpack(config) {
     // Grab the existing rule that handles SVG imports
     const fileLoaderRule = config.module.rules.find((rule) =>
       rule.test?.test?.(".svg")
     );
-    
+
     config.module.rules.push(
       // Reapply the existing rule, but only for svg imports ending in ?url
       {
@@ -48,10 +39,10 @@ const nextConfig = {
         },
       }
     );
-    
+
     // Modify the file loader rule to ignore *.svg, since we have it handled now.
     fileLoaderRule.exclude = /\.svg$/i;
-    
+
     return config;
   },
 };
