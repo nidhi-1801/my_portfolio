@@ -4,31 +4,47 @@ import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import { SectionHeader } from "@/components/SectionHeader";
 import { Card } from "@/components/Card";
-import amazon from "@/assets/images/amazon-laptop.png";
-import stumagz from "@/assets/images/stumagz-laptop.png";
+import tmobile from "@/assets/images/tmobile.png";
+import pwc from "@/assets/images/pwc.png";
+import tcs from "@/assets/images/tcs.png";
+
 
 const portfolioProjects = [
   {
     company: "T-Mobile",
-    year: "May 2024 - August 2024",
+    year: "May 2024 - Nov 2025",
     title: "Data Scientist",
     results: [
-      { title: "Designed and Built end-to-end monitoring system that captured ML features of product's video at at various stages in its lifecycle." },
-      { title: "integrated across SageMaker pipelines owned by more than 10 teams, which significantly enhanced the system's debuggability." },
-      { title: "Used various AWS services like SageMaker, Dynamo DB, Amazon S3, Amazon SQS, CDK etc to build and deploy the pipelines on CloudFormation." },
+      { title: "Led end-to-end deployment of time series models (ARIMAX, Gradient Boosting) to predict customer support volumes." },
+      { title: "Designed and analyzed A/B experiments using causal impact analysis to drive key product decisions." },
+      { title: "Built scalable feature engineering pipelines with Python and Airflow, improving model accuracy by 22%." },
+      { title: "Established automated production monitoring for model drift and forecast error (WAPE) using retraining workflows." },
     ],
-    image: amazon,
+    image: tmobile,
   },
   {
-    company: "StumagZ",
-    year: "May 2021 - August 2023",
-    title: "Software Development Engineer",
+    company: "PWC",
+    year: "Jan 2023 – Dec 2023",
+    title: "Junior Data Scientist",
     results: [
-      { title: "I helpeded in building an end-to-end pipeline that analyzes and flags for violative content before publishing." },
-      { title: "Automated article approval written by students across various Tier 2 3 colleges in Hyderabad." },
-      { title: "Also included building API's to retrieve personalized part time gigs based on user preferences" },
+      { title: "Deployed predictive classification models for 100+ entities, reducing manual compliance workflows by 40%." },
+      { title: "Built production-ready Python pipelines on Azure ML for automated model training and inference." },
+      { title: "Achieved a 30% reduction in False Positives by designing optimal evaluation metrics like Precision-Recall curves." },
+      { title: "Developed high-efficiency SQL & Python ETL pipelines integrating 50+ disparate data sources into a feature store." },
     ],
-    image: stumagz,
+    image: pwc
+  },
+  {
+    company: "Tata Consultancy Services (TCS)",
+    year: "May 2021 – Dec 2022",
+    title: "Data Analyst",
+    results: [
+      { title: "Built and deployed machine learning models for customer behavior prediction across the full data science lifecycle." },
+      { title: "Applied supervised learning techniques to solve complex classification and regression problems." },
+      { title: "Owned data quality for workforce management models by querying large datasets using SQL and NumPy." },
+      { title: "Partnered with cross-functional teams to troubleshoot data issues and improve analytical workflows." },
+    ],
+    image: tcs, // You can swap this with a different image asset if available
   },
 ];
 
