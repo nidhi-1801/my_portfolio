@@ -14,25 +14,23 @@ import { ToolboxItems } from "@/components/ToolboxItems";
 import { motion } from "framer-motion";
 import { useRef } from "react";
 
-// UPDATED: Based on your GitHub Toolkit (Data Science focus)
 const toolboxItems = [
   { title: "Python", iconType: JavaScriptIcon },
   { title: "SQL", iconType: HTMLIcon },
-  { title: "TensorFlow", iconType: CssIcon },
-  { title: "PyTorch", iconType: ReactIcon },
-  { title: "R", iconType: GithubIcon },
-  { title: "JavaScript", iconType: ChromeIcon },
+  { title: "Power BI", iconType: CssIcon },
+  { title: "Tableau", iconType: ReactIcon },
+  { title: "Excel", iconType: GithubIcon },
+  { title: "SAP", iconType: ChromeIcon },
 ]
 
-// UPDATED: Based on your GitHub "What I Do" section
 const hobbies = [
-  { title: "Data Analysis", emoji: '🔍', left: '5%', top: '5%' },
-  { title: "Machine Learning", emoji: '🧪', left: '50%', top: '5%' },
-  { title: "Generative AI", emoji: '💬', left: '10%', top: '35%' },
-  { title: "Computer Vision", emoji: '👁️', left: '35%', top: '40%' },
-  { title: "Business Intelligence", emoji: '📊', left: '70%', top: '45%' },
-  { title: "Problem Solving", emoji: '💡', left: '5%', top: '65%' },
-  { title: "Visual AI", emoji: '🤖', left: '45%', top: '70%' },
+  { title: "Supply Chain Analytics", emoji: '📦', left: '5%', top: '5%' },
+  { title: "Demand Forecasting", emoji: '📈', left: '50%', top: '5%' },
+  { title: "Inventory Planning", emoji: '📊', left: '10%', top: '35%' },
+  { title: "Transportation Analytics", emoji: '🚚', left: '35%', top: '40%' },
+  { title: "KPI Development", emoji: '🎯', left: '70%', top: '45%' },
+  { title: "Process Improvement", emoji: '⚙️', left: '5%', top: '65%' },
+  { title: "Data Storytelling", emoji: '💡', left: '45%', top: '70%' },
 ]
 
 export const AboutSection = () => {
@@ -43,11 +41,11 @@ export const AboutSection = () => {
         <SectionHeader
           eyebrow="About Me"
           title="A Glimpse into my World"
-          description="I'm a Data Scientist and ML Enthusiast passionate about transforming raw data into meaningful insights and building AI systems that solve real-world problems." />
+          description="I'm a supply chain data analyst with 4 years of experience turning operational data into practical decisions — from demand forecasting and inventory planning to transportation analytics and KPI-driven performance improvement across FedEx, PWC, and Accenture." />
         <div className="mt-20 flex flex-col gap-8">
           <div className="grid grid-cols-1 gap-8 md:grid-cols-5 lg:grid-cols-3">
             <Card className="h-[320px] md:col-span-2 lg:col-span-1">
-              <CardHeader title="My Reads" description="Exploring the books and papers shaping my data science journey." />
+              <CardHeader title="My Reads" description="Exploring the books and papers shaping my analytics journey." />
               <div className="w-40 mx-auto mt-2 md:mt-0">
                 <Image src={bookImage} alt="Book" />
               </div>
@@ -56,7 +54,7 @@ export const AboutSection = () => {
             <Card className="h-[320px] md:col-span-3 lg:col-span-2">
               <CardHeader
                 title="My Toolbox"
-                description="The technologies and frameworks I use to build intelligent systems."
+                description="The technologies and tools I use to turn data into decisions."
               />
               <ToolboxItems items={toolboxItems} itemsWrapperClassName="animate-move-left [animation-duration:30s] hover:[animation-play-state:paused]" />
               <ToolboxItems
@@ -67,7 +65,7 @@ export const AboutSection = () => {
           </div>
           <div className="grid grid-cols-1 gap-8 md:grid-cols-5 lg:grid-cols-3">
             <Card className="h-[320px] p-0 flex flex-col md:col-span-3 lg:col-span-3">
-              <CardHeader title="Beyond the Code" description="The areas of AI and Data Science that fuel my passion." className="px-6 py-6" />
+              <CardHeader title="Beyond the Code" description="The areas of supply chain and analytics that fuel my passion." className="px-6 py-6" />
               <div className="relative flex-1" ref={constraintRef}>
                 {hobbies.map((hobby) => (
                   <motion.div key={hobby.title} 

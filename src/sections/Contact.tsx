@@ -18,13 +18,12 @@ export const ContactSection = () => {
                 Thrilled to connect and discuss further!
               </h2>
               <p className="text-sm md:text-base mt-2">
-                Let’s connect and discuss how my skills in Data Science and Machine Learning can help achieve great results.
+                Let&apos;s connect and discuss how my supply chain analytics experience — from demand forecasting and inventory planning to KPI development and process improvement — can help drive great results.
               </p>
             </div>
             <div>
-              {/* BUTTON IS NOW UNCOMMENTED AND UPDATED */}
               <a 
-                href="mailto:nidhisir81@gmail.com" 
+                href="mailto:nidhineha1824@gmail.com" 
                 className="text-white bg-gray-900 inline-flex items-center px-6 h-12 rounded-xl gap-2 w-max border border-gray-900 hover:scale-105 transition duration-300"
               >
                 <span className="font-semibold">Contact Me</span>

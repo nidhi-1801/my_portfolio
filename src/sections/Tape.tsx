@@ -3,20 +3,20 @@ import { Fragment } from "react";
 
 const words = [
   "Data-Driven",
-  "Machine-Learning",
-  "Model-Optimization",
-  "Analytical",
-  "Predictive-Modeling",
-  "Neural-Networks",
-  "Scalable-AI",
-  "NLP",
-  "Statistical-Analysis",
-  "Innovative",
+  "Supply-Chain-Analytics",
+  "Demand-Forecasting",
+  "Inventory-Planning",
+  "Transportation-Analytics",
+  "KPI-Development",
+  "Power-BI",
+  "SQL",
+  "Predictive-Analytics",
+  "Process-Improvement",
   "Problem-Solver",
   "Impact-Focused",
-  "A/B-Testing",
-  "Big-Data",
-  "Efficient"
+  "Scenario-Planning",
+  "Executive-Reporting",
+  "Analytical"
 ];
 
 export const TapeSection = () => {
